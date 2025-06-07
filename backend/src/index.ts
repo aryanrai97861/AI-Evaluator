@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import summarizeRoutes from './routes/summarize.ts'
+import summarizeRoutes from './routes/summarize'
 
 dotenv.config();
 const app = express();

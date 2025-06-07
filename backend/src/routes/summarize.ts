@@ -1,6 +1,6 @@
 import express from 'express';
-import prisma from '../prismaClient.ts';
-import { summarizeText } from '../gemini.ts';
+import prisma from '../prismaClient';
+import { summarizeText } from '../gemini';
 
 const router = express.Router();
 
